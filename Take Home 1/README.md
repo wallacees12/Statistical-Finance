@@ -21,7 +21,11 @@ All four estimates are overlaid both on the full range `x ∈ [-10, 10]` and on 
 Install them (if needed) inside the workspace environment:
 
 ```bash
-"/Users/samwallace/Library/Mobile Documents/com~apple~CloudDocs/Statistical Finance/Take Home 1/.conda/bin/python" -m pip install numpy scipy matplotlib seaborn
+python -m pip install numpy scipy matplotlib seaborn
 ```
 
-git
+# Results
+
+![Full density comparison](stable_sum_density_full.png)
+
+![Tail density comparison](stable_sum_density_tail.png)
