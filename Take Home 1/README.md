@@ -24,15 +24,4 @@ Install them (if needed) inside the workspace environment:
 "/Users/samwallace/Library/Mobile Documents/com~apple~CloudDocs/Statistical Finance/Take Home 1/.conda/bin/python" -m pip install numpy scipy matplotlib seaborn
 ```
 
-## Running the analysis
-
-```bash
-"/Users/samwallace/Library/Mobile Documents/com~apple~CloudDocs/Statistical Finance/Take Home 1/.conda/bin/python" stable_sum_analysis.py
-```
-
-The script prints progress updates and writes two figures to the repository root:
-
-- `stable_sum_density.png` – full-range comparison.
-- `stable_sum_density_tail.png` – tail-only comparison for `x ∈ [4, 10]`.
-
-Feel free to tweak the plotting range, sample size, quadrature tolerances, or FFT grid density inside `stable_sum_analysis.py` if you want to explore different trade-offs between runtime and precision.
+git
